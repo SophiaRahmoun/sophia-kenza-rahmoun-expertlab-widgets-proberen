@@ -1,0 +1,94 @@
+# Monthly Widget – SwiftUI & WidgetKit Mini Project
+
+This mini-project was created as part of my Expertlab course, where I am learning to deepen my skills to become an iOS Software Engineer.  
+One of my goals is to master more advanced iOS frameworks, including WidgetKit, to build richer and more interactive iOS experiences.
+
+---
+
+## Goal?
+
+The goal of this small project was to:
+
+- Understand how **WidgetKit** works  
+- Implement a **small, functional widget**  
+- Learn the basics of:
+  - `TimelineProvider`
+  - `AppIntent` configuration
+  - `TimelineEntry`
+  - `Widget families`
+  - Previewing widgets with `#Preview`
+  - Removing system margins
+  - Dynamic UI configuration based on the current month
+
+---
+
+## What the widget does
+
+The widget displays:
+
+- The **current weekday**  
+- The **day number** (big, bold typography)  
+- A **month-specific emoji**  
+- A **dynamic background theme** based on the month  
+
+Each month has its own color palette & emoji using a custom configuration struct (`MonthConfig`).
+
+---
+
+## Course followed
+
+I learned all of this by following **Sean Allen’s excellent “Monthly Widget” video tutorial**, which explains WidgetKit step by step and is great for beginners.
+
+I strongly recommend his content — you can access the course via the following link:
+>👉 https://www.youtube.com/watch?v=jucm6e9M6LA 
+
+---
+
+## 🛠️ Tech Stack
+
+- **Swift**
+- **SwiftUI**
+- **WidgetKit**
+- **Xcode 16**
+- **iOS 18 widget system**
+- Timeline rendering with `AppIntentTimelineProvider`
+
+---
+
+## Features Implemented
+
+- [x] Fully functional **small** widget  
+- [x] Dynamic themes per month  
+- [x] Custom preview for testing all months  
+- [x] No-margin widget layout  
+- [x] Clean widget structure following Apple standards  
+
+
+
+## What i learned
+
+- How to structure a widget extension
+- How timelines update content
+- How to create dynamic entries
+- How to build month-based UI logic
+- How to remove default WidgetKit margins
+- How to preview widgets correctly
+- How to design a simple but clean widget UI
+
+---
+
+## 💡 Next Steps
+
+Future improvements I’d like to explore:
+
+- Medium & large widgets  
+- Adding configuration options  
+- Deep-linking into the app  
+- Adding animations or accessories  
+- Integrating real data from an app database  
+
+---
+
+## 👩‍💻 Author
+
+Made with focus and dedication during the Expertlab Course to become better at Swift. 
